@@ -1,0 +1,689 @@
+    1  sudo apt update
+    2  npm -i g typescript
+    3  npm i -g typescript
+    4  cd lezione\ 1/
+    5  tsc app.ts 
+    6  ls
+    7  cd Sc
+    8  cd Scrivania/
+    9  ls
+   10  mkdir tirocinio
+   11  ls
+   12  cd tirocinio/
+   13  cd ..
+   14  rm -r tirocinio/
+   15  git clone https://github.com/ocherdragon/tirocinio.git
+   16  dpkg -i protonvpn-stable-release_1.0.3-2_all.deb 
+   17  sudo dpkg -i protonvpn-stable-release_1.0.3-2_all.deb 
+   18  npm i -g @nestjs/cli
+   19  nest new Adminjs
+   20  cd adminjs/
+   21  yarn add adminjs 
+   22  yarn add adminjs @adminjs/nestjs
+   23  yarn start dev
+   24  yarn add @adminjs/nestjs
+   25  yarn start dev
+   26  npm i @adminjs/nestjs
+   27  yarn start dev
+   28  yarn add @adminjs/express express-session express-formidable
+   29  yarn start dev
+   30  npm i @adminjs/express express-session express-formidable
+   31  npm audit fix --force
+   32  yarn start dev
+   33  yarn build
+   34  yarn start dev
+   35  yarn add typeorm
+   36  yarn add @ædminjs/typeorm
+   37  yarn add @adminjs/typeorm
+   38  sudo mysql
+   39  sudo mariadb
+   40  yarn start
+   41  git add .
+   42  git add *
+   43  git commit -m "adminjs init"
+   44  git add adminjs/
+   45  git init
+   46  git branch -M main
+   47  git add .
+   48  git push -u origin main
+   49  git remote add origin https://github.com/CipherX22/tirocinio.git
+   50  git branch -M main
+   51  git push -u origin main
+   52  ls -a
+   53  git init
+   54  git add adminjs/
+   55  git add adminjs/*
+   56  git add *
+   57  clear
+   58  git commit -m "adminjs init"
+   59  git add adminjs/
+   60  git add adminjs/*
+   61  git commit -m "adminjs init"
+   62  ls -a
+   63  clear
+   64  ls -a
+   65  rm -r .git/
+   66  ls -a
+   67  clear
+   68  ls
+   69  cd Scrivania/
+   70  ls
+   71  touch
+   72  touch token
+   73  nano token 
+   74  git clone https://github.com/CipherX22/tirocinio.git
+   75  ls
+   76  cd tirocinio/
+   77  ls
+   78  cd ..
+   79  rm -r tirocinio/
+   80  git clone https://github.com/CipherX22/tirocinio.git
+   81  ls
+   82  cd tirocinio/
+   83  ls
+   84  code .
+   85  sudo apt update
+   86  sudo apt upgrade
+   87  sudo apt install protonvpn
+   88  ls
+   89  echo token 
+   90  grep token 
+   91  cat token 
+   92  cd cp -R tirocinio/ tirocinioold/
+   93  cp -R tirocinio/ tirocinioold/
+   94  ls
+   95  rm -r tirocinio/
+   96  sudo rm -r tirocinio/
+   97  ls
+   98  mkdir tirocinio
+   99  ls
+  100  cd tirocinio
+  101  echo "# tirocinio" >> README.md
+  102  git init
+  103  git add README.md 
+  104  git commit -m "first commit"
+  105  git commit --global --edit
+  106  git commit -m "first commit"
+  107  git branch -M main
+  108  git remote add origin https://github.com/CipherX22/tirocinio.git
+  109  git push -u origin master
+  110  cd ..
+  111  rm -r tirocinio
+  112  y
+  113  rm -r tirocinio
+  114  ls
+  115  git clone https://github.com/CipherX22/tirocinio.git
+  116  cd tirocinio
+  117  ls
+  118  cp -R ../tirocinioold/adminjs/ ./
+  119  ls
+  120  git add .
+  121  cd adminjs/
+  122  ls -a
+  123  rm -r .git
+  124  ls
+  125  cd ..
+  126  git add .
+  127  git commit -m "adminjs"
+  128  git push
+  129  cd Scrivania/
+  130  ls
+  131  mkdir test
+  132  cd test
+  133  mkdir uml
+  134  cd uml 
+  135  code .
+  136  cd src/main/resources/
+  137  pwd
+  138  npm i fs jsmul2
+  139  npm i fs
+  140  npm i jsUML2
+  141  rm -r node_modules/
+  142  rm index.js  package.json package-lock.json 
+  143  mvn
+  144  sudo apt install mvn
+  145  sudo apt update
+  146  java --version
+  147  sudo apt install default-jre
+  148  sudo apt install default-jdk
+  149  java --version
+  150  javac --version
+  151  mvn
+  152  maven
+  153  sudo apt install maven
+  154  mvn -version
+  155  cd jarToUml/
+  156  mvn archetype:generate -DgroupId=com.example -DartifactId=myproject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+  157  touch compile.sh
+  158  touch run.sh
+  159  chmod 777 compile.sh run.sh 
+  160  ./compile.sh 
+  161  ./run.sh 
+  162  clear
+  163  mvn compile
+  164  ls
+  165  cd myproject/
+  166  cd ..
+  167  cd myproject/
+  168  ./compile.sh 
+  169  ./run.sh 
+  170  ./compile.sh 
+  171  ./run.sh 
+  172  java -jar jd-gui-1.6.6-min.jar 
+  173  java -jar jd-gui-1.6.6-min.jar 
+  174  java -jar jd-gui-1.6.6-min.jar 
+  175  pwd
+  176  ls
+  177  ./run.sh 
+  178  ./compile.sh 
+  179  ./run.sh 
+  180  ls
+  181  ./clsvis.sh 
+  182  clear
+  183  clear
+  184  ./run.sh 
+  185  ./compile.sh 
+  186  ./run.sh 
+  187  clear
+  188  ./run.sh 
+  189  yarn start
+  190  yarn add @nestjs/typeorm
+  191  yarn start
+  192  yarn add --save typeorm mysql2
+  193  yarn start
+  194  ls
+  195  code angular-electron
+  196  cd Scrivania/
+  197  cd tirocinio
+  198  ls
+  199  cd adminjs/
+  200  ls
+  201  code .
+  202  npm i
+  203  npm start
+  204  cd Scaricati/
+  205  ls
+  206  rm -r angular-electron angular-electron.zip slack-desktop-4.32.127-amd64.deb slack-4.32.127-0.1.el8.x86_64.rpm 
+  207  ls
+  208  yarn create keystone-app
+  209  cd adminjs/
+  210  touch main.ts
+  211  tsc main.ts 
+  212  cd ..
+  213  rm -r adminjs/
+  214  yarn create react-app adminjs
+  215  cd adminjs/
+  216  yarn start
+  217  cd ..
+  218  rm -r adminjs/
+  219  mkdir adminjs
+  220  cd adminjs/
+  221  ls
+  222  touch main.ts
+  223  tsx main.ts 
+  224  tsc main.ts 
+  225  yarn
+  226  yarn add adminjs
+  227  tsc app.ts 
+  228  clear
+  229  cd ..
+  230  cd keystone/
+  231  yarn dev
+  232  cd ..
+  233  mkdit jhipster
+  234  mkdir jhipster
+  235  cd jhipster/
+  236  yarn add generator-jhipster
+  237  jhipster
+  238  npm install -g generator-jhipster 
+  239  jhipster --yarn
+  240  npx jhipster
+  241  ./mvnw
+  242  mwnw
+  243  ls
+  244  chmod 777 mvnw
+  245  ./mvnw 
+  246  yarn start
+  247  cd ..
+  248  git add .
+  249  git commit -m "grande aggiornamento"
+  250  git push
+  251  yarn create react-admin react-admin
+  252  cd react-admin/
+  253  tarn dev
+  254  yarn dev
+  255  cd ..
+  256  git add .
+  257  git commit -m "react-admin"
+  258  git push
+  259  ./run.sh 
+  260  sudo apt update
+  261  ping google.com
+  262  curl 
+  263  curl google.com
+  264  ./run.sh 
+  265  ./compile.sh 
+  266  ./run.sh 
+  267  ./compile.sh 
+  268  ./run.sh 
+  269  clear
+  270  ./compile.sh 
+  271  ./run.sh 
+  272  ping google.com
+  273  ping http://google.com
+  274  google.com
+  275  sudo apt update
+  276  sudo service networking restart 
+  277  sudo systemctl stop NetworkManager
+  278  sudo rm /etc/NetworkManager/NetworkManager.conf 
+  279  sudo systemctl restart NetworkManager
+  280  ./run.sh 
+  281  cd jarToUml/
+  282  ./run.sh 
+  283  ls
+  284  cd myproject/
+  285  ./run.sh 
+  286  ping google.com
+  287  sudo systemctl status networking
+  288  ping google.com
+  289  cd react-admin/
+  290  yarn start
+  291  yarn sdev
+  292  yarn dev
+  293  nano reset-dns 
+  294  ls
+  295  rm -r tirocinioold/
+  296  sudo rm -r tirocinioold/
+  297  ls
+  298  ping 8.8.8.8
+  299  sudo systemd-repart --flush-caches
+  300  nano /etc/resolv.conf 
+  301  sudo nano /etc/resolv.conf 
+  302  sudo systemctl restart systemd-hostnamed.service 
+  303  sudo apt update
+  304  sudo apt upgrade
+  305  cd s
+  306  cd Scrivania/
+  307  cd tirocinio
+  308  ls
+  309  code .
+  310  nano /etc/resolv.conf 
+  311  sudo nano /etc/resolv.conf 
+  312  sudo systemctl restart systemd-hostnamed.service 
+  313  "sudo nano /etc/resolv.conf" >> uno 
+  314  "sudo nano /etc/resolv.conf" > uno 
+  315  cd ..
+  316  touch reset-dns
+  317  ls
+  318  cd Sc
+  319  cd Scrivania/
+  320  ls
+  321  cat reset-dns 
+  322  sudo nano /etc/resolv.conf
+  323  cd Scrivania/
+  324  ls
+  325  cat reset-dns 
+  326  sudo systemctl restart systemd-hostnamed.service
+  327  cd .
+  328  cd ..
+  329  touch start.sh
+  330  nano start.sh 
+  331  chmod 777 start.sh 
+  332  ./start.sh 
+  333  nano start.sh 
+  334  sudo ./start.sh 
+  335  ls
+  336  cp ./start.sh /usr/local/bin
+  337  cp ./start.sh /usr/local/bin/fix_dns.sh
+  338  sudo cp ./start.sh /usr/local/bin/fix_dns.sh
+  339  cat /etc/resolv.conf 
+  340  ls
+  341  cd Scrivania
+  342  ls
+  343  nano reset-dns 
+  344  cd /usr/local/bin
+  345  la
+  346  ls
+  347  ls -a
+  348  sudo nano /etc/systemd/system/fix_dns.service
+  349  sudo systemctl enable fix_dns
+  350  sudo systemctl start fix_dns
+  351  sudo systemctl status fix_dns
+  352  sudo systemctl start fix_dns
+  353  sudo systemctl status fix_dns
+  354  sudo systemctl start fix_dns
+  355  sudo nano /etc/systemd/system/fix_dns.service
+  356  sudo systemctl start fix_dns
+  357  sudo systemctl daemon-reload 
+  358  sudo systemctl start fix_dns
+  359  sudo systemctl daemon-reload 
+  360  sudo systemctl start fix_dns
+  361  sudo systemctl status fix_dns
+  362  ls
+  363  sudo ./start.sh 
+  364  ./run.sh 
+  365  ./run.sh ù
+  366  cd ..
+  367  git clone https://github.com/CipherX22/jaranalyzer.git
+  368  mv ./jarToUml/myproject/ ./jaranalyzer/
+  369  mv -R ./jarToUml/myproject/ ./jaranalyzer/
+  370  mv -r ./jarToUml/myproject/ ./jaranalyzer/
+  371  mv  ./jarToUml/myproject/* ./jaranalyzer/*
+  372  mv ./jarToUml/myproject/* ./jaranalyzer/*
+  373  mv ./jarToUml/myproject/* ./jaranalyzer/
+  374  mv ./jarToUml/myproject/ ./jaranalyzer/
+  375  mv ./jarToUml/myproject ./jaranalyzer/
+  376  ls
+  377  cd jaranalyzer/
+  378  ls
+  379  mv ./myproject/* ./
+  380  ls
+  381  rm -r myproject/
+  382  ls
+  383  code .
+  384  git add .
+  385  git commit -m "primo commit"
+  386  git push
+  387  git add .
+  388  git commit -m "errore da risolvere"
+  389  git push
+  390  ls
+  391  sudo ./start.sh 
+  392  sudo dpkg -i discord-0.0.27.deb 
+  393  sudo apt install libc++1
+  394  sudo apt --fix-broken install
+  395  sudo apt install libc++1
+  396  sudo dpkg -i discord-0.0.27.deb 
+  397  ls
+  398  cd 
+  399  ls
+  400  cd Scrivania/
+  401  ls
+  402  cut token 
+  403  cat token 
+  404  cat bit
+  405  php artisan routes:list
+  406  php artisan route
+  407  php artisan route:list
+  408  git add .
+  409  git commit -m "ultime modifiche"
+  410  git push
+  411  ls
+  412  sudo ./start.sh 
+  413  cd Scrivania/
+  414  git clone https://devfrqncyedu@bitbucket.org/sviluppoweb2023/cryptodemo.git
+  415  cd cryptodemo/
+  416  ls
+  417  composer
+  418  install php
+  419  php
+  420  sudo apt update
+  421  sudo apt install php
+  422  sudo apt update
+  423  sudo apt install php 
+  424  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  425  php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff031906575712edab6f13eb0b361f2085f1f1237b7126d785e826a450292b6cfd1d64d92e6563bbde02') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  426  php composer-setup.php
+  427  php -r "unlink('composer-setup.php');"
+  428  sudo mv composer.phar /usr/local/bin/composer
+  429  composer install
+  430  composer update
+  431  sudo apt install php-xml
+  432  composer update
+  433  sudo apt install php-curl php-mysql
+  434  composer update
+  435  npm i
+  436  npm audit fix
+  437  sudo mysql
+  438  code .
+  439  cd ..
+  440  cd --
+  441  sudo ./start.sh 
+  442  npm run dev
+  443  npm i
+  444  npm run dev
+  445  npm i laravel-vite-plugin
+  446  npm run dev
+  447  npm i vite
+  448  npm run dev
+  449  npm run build
+  450  npm run dev
+  451  npm run build
+  452  npm i
+  453  rm -r node_modules/
+  454  npm i
+  455  npm run build
+  456  npm run dev
+  457  sudo mysql
+  458  npm run dev
+  459  php artisan serve
+  460  php artisan migrate:fresh
+  461  php artisan DB:SEED
+  462  php artisan serve
+  463  php artisan migrate:fresh
+  464  php artisan serve
+  465  php artisan DB:SEED
+  466  php artisan serve
+  467  php artisan migrate:fresh
+  468  php artisan DB:SEED
+  469  php artisan migrate:fresh
+  470  php artisan DB:SEED
+  471  php artisan migrate:fresh
+  472  php artisan DB:SEED
+  473  php artisan serve
+  474  php artisan migrate:fresh
+  475  php artisan DB:SEED
+  476  php artisan serve
+  477  php artisan migrate:fresh
+  478  php artisan DB:SEED
+  479  php artisan serve
+  480  php artisan migrate:fresh
+  481  php artisan DB:SEED
+  482  php artisan serve
+  483  php artisan migrate:fresh
+  484  php artisan DB:SEED
+  485  php artisan serve
+  486  php artisan migrate:fresh
+  487  php artisan DB:SEED
+  488  php artisan serve
+  489  php artisan migrate:fresh
+  490  php artisan DB:SEED
+  491  php artisan serve
+  492  php artisan migrate:fresh
+  493  php artisan DB:SEED
+  494  php artisan serve
+  495  php artisan migrate:fresh
+  496  php artisan DB:SEED
+  497  php artisan serve
+  498  php artisan migrate:fresh
+  499  php artisan DB:SEED
+  500  php artisan migrate:fresh
+  501  php artisan DB:SEED
+  502  php artisan migrate:fresh
+  503  php artisan DB:SEED
+  504  php artisan migrate:fresh
+  505  php artisan DB:SEED
+  506  php artisan serve
+  507  php artisan migrate:fresh
+  508  php artisan DB:SEED
+  509  php artisan serve
+  510  php artisan migrate:fresh
+  511  php artisan DB:SEED
+  512  php artisan serve
+  513  php artisan migrate:fresh
+  514  php artisan DB:SEED
+  515  php artisan serve
+  516  php artisan migrate:fresh
+  517  php artisan DB:SEED
+  518  php artisan serve
+  519  php artisan migrate:fresh
+  520  php artisan DB:SEED
+  521  php artisan serve
+  522  php artisan serve
+  523  php artisan DB:SEED
+  524  php artisan serve
+  525  php artisan route:cache
+  526  php artisan serve
+  527  node -v
+  528  ls
+  529  sudo ./start.sh 
+  530  sudo mysql
+  531  npm run dev
+  532  php artisan serve
+  533  php artinsan migrate:fresh
+  534  php artisan migrate:fresh
+  535  php artisan DB:SEED
+  536  php artisan serve
+  537  ./run.sh 
+  538  php artisan migrate:fresh
+  539  ./run.sh 
+  540  sudo ./start.sh 
+  541  git add .
+  542  git commit -m "risolto errore"
+  543  git push
+  544  ls
+  545  ./compile.sh 
+  546  sudo mysql
+  547  ./run.sh 
+  548  git add .
+  549  git commit -m "database orm messo male
+  550  "
+  551  git push
+  552  sudo ./start.sh 
+  553  ./compile.sh 
+  554  ./run.sh 
+  555  sudo ./start.sh 
+  556  cd jhipster/
+  557  code .
+  558  ./mvnw 
+  559  cd ..
+  560  ls
+  561  ls7
+  562  ls
+  563  sudo ./start.sh 
+  564  cd keystone/
+  565  code 
+  566  code .
+  567  yarn dev
+  568  cd ..
+  569  ls
+  570  sudo mysql
+  571  sudo mysql -u francesco -p
+  572  ./run.sh 
+  573  sudo mysql
+  574  clear
+  575  ./run.sh 
+  576  git add .
+  577  git commit -m "db"
+  578  git push
+  579  sudo ./start.sh 
+  580  sudo apt update
+  581  sudo apt upgrade
+  582  sudo apt update
+  583  git add .
+  584  git commit -m "jhipster&adminjs se non erro"
+  585  git push
+  586  git repostiory
+  587  git --help
+  588  sudo ./start.sh 
+  589  sudo apt update
+  590  sudo apt upgrade
+  591  cd nestjs\ -\ adminjs/
+  592  yarn start
+  593  sudo mysql 
+  594  sudo mysql -u francesco -p
+  595  yarn start
+  596  sudo mysql -u francesco -p
+  597  yarn start
+  598  rm -r node_modules/
+  599  yarn
+  600  yarn dev
+  601  yarn start
+  602  yarn add mssql
+  603  sudo ./start.sh
+  604  sudo apt update
+  605  sudo apt upgrade
+  606  cd Downloads/
+  607  ls
+  608  cd ..
+  609  cd Scaricati/
+  610  ls
+  611  sudo dpkg -i code_1.80.0-1688479026_amd64.deb 
+  612  sudo apt update
+  613  sudo apt upgrade
+  614  ls
+  615  sudo reboot
+  616  yarn start
+  617  cd nestjs\ -\ adminjs/
+  618  yarn start
+  619  firefox -p
+  620  lspci | grep VGA
+  621  lspci
+  622  sudo ./start.sh 
+  623  cd Scrivania/tirocinio/
+  624  ls
+  625  code .
+  626  sudo apt update
+  627  sudo apt upgrade
+  628  systemd
+  629  systemctl
+  630  sudo apt update
+  631  sudo apt upgrade
+  632  sudo apt --fix-broken install
+  633  sudo apt upgrade
+  634  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  635  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  636  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  637  sudo apt update
+  638  sudo apt install docker-ce docker-ce-cli containerd.io
+  639  sudo systemctl status docker
+  640  cd Scaricati/
+  641  l
+  642  ls
+  643  sudo dpkg -i docker-desktop-4.21.1-amd64.deb 
+  644  sudp apt --fix-install
+  645  sudo apt --fix-broken install
+  646  ls
+  647  ls
+  648  sudo dpkg -i docker-desktop-4.21.1-amd64.deb 
+  649  sudo apt install docker
+  650  docker
+  651  docker-cli
+  652  docker
+  653  sudo systemctl disable
+  654  sudo systemctl disable fix_dns.service 
+  655  sudo systemctl stop fix_dns.service 
+  656  sudo ./start.sh 
+  657  sudo apt update
+  658  sudo apt upgrade
+  659  cd adminjs/
+  660  code .
+  661  cd ..
+  662  code .
+  663  sudo apt update
+  664  sudo apt upgrade
+  665  ls
+  666  nano start.sh 
+  667  code /etc/
+  668  ls
+  669  nano start.sh 
+  670  code /etc/resolv.conf
+  671  docker images
+  672  sudo docker images
+  673  sudo docker rm nestjs-adminjs-app
+  674  sudo docker stop nestjs-adminjs-app
+  675  docker build -t nest_adminjs .
+  676  sudo docker build -t nest_adminjs .
+  677  docker run -p 8080:8080 --name nest_adminjs nest_adminjs
+  678  sudo docker run -p 8080:8080 --name nest_adminjs nest_adminjs
+  679  docker run --help
+  680  docker-compose up
+  681  sudo docker-compose up
+  682  sudo docker compose up
+  683  cd nestjs\ -\ adminjs/
+  684  code .
+  685  sudo apt update
+  686  sudo apt upgrade
+  687  sudo reboot
+  688  yarn start
+  689  history > history.txt

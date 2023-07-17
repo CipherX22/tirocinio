@@ -1,0 +1,8 @@
+docker build -t nest_adminjs .
+docker start nest_adminjs
+docker stats
+
+docker run -d --name nest_adminjs \
+  -p 3000:3000 \
+  --link db \
+  .

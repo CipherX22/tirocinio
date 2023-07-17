@@ -1,19 +1,10 @@
 import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
-import { dataSource } from './data-source';
-
 import { Organization } from './organization.entity';
-
-import { TypeOrmModule } from '@nestjs/typeorm';
-import { AdminModule } from '@adminjs/nestjs';
-import AdminJS from 'adminjs';
-
-
-//AdminJS.registerAdapter({ Database, Resource })
-
 
 const DEFAULT_ADMIN = {
   email: 'admin@example.com',
@@ -27,7 +18,6 @@ const authenticate = async (email: string, password: string) => {
   return null;
 };
 
-/*
 const adminjsImport = async () => {
   const { AdminJS } = await import('adminjs');
   const AdminJSTypeorm = await import('@adminjs/typeorm');
@@ -35,27 +25,31 @@ const adminjsImport = async () => {
     Resource: AdminJSTypeorm.Resource,
     Database: AdminJSTypeorm.Database,
   });
-};*/
+};
 
 @Module({
   imports: [
     // AdminJS version 7 is ESM-only. In order to import it, you have to use dynamic imports.
     //import('adminjs').then(({ Adminjs }) => Adminjs),
-    TypeOrmModule.forRoot({
+    /*TypeOrmModule.forRoot({
       type: 'mariadb',
-      host: 'localhost',
-      port: 5432,
+      host: '127.0.0.1',
+      port: 3306,
       username: 'francesco',
       password: 'password',
       database: 'Tirocinio',
       synchronize: true,
       logging: true,
+      //options: {
+      //  trustServerCertificate: true,
+      //},
       entities: [Organization],
       subscribers: [],
       migrations: [],
-    }),
-    import('@adminjs/nestjs').then(({ AdminModule }) =>
-      AdminModule.createAdminAsync({
+    }),*/
+    import('@adminjs/nestjs').then(async ({ AdminModule }) => {
+      await adminjsImport();
+      return AdminModule.createAdminAsync({
         useFactory: () => ({
           adminJsOptions: {
             rootPath: '/admin',
@@ -72,9 +66,8 @@ const adminjsImport = async () => {
             secret: 'secret',
           },
         }),
-      }),
-    ),
-    //adminjsImport(),
+      });
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
